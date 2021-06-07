@@ -104,20 +104,20 @@ function App() {
         </ul>
         <div>
         
-        <h4> To add new data, submit the values </h4>
+        <h4> Add new data, Submit the value </h4>
         <form onSubmit={addNote}>
           Name: <input type = "text" name = "n1"/> <br />
           Phone: <input type = "text" name = "p1"/> <br />
           <input type = "submit" value = "save"/> <br />
         </form>
         
-        <h4> To delete new data, submit the value </h4>
+        <h4> Delete new data, submit the values </h4>
         <form onSubmit={deleteNote}>
           ID: <input type = "text" name = "id1"/> <br />
           <input type = "submit" value = "delete"/> <br />
         </form>
         
-        <h4> To modify the data (phone number), submit the values </h4>
+        <h4> Modify the data (phone number), submit the value </h4>
         <form onSubmit={putNote}>
           Name: <input type = "text" name = "n1"/> <br />
           Phone: <input type = "text" name = "p1"/> <br />
