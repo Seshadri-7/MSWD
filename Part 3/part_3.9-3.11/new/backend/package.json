@@ -10,7 +10,7 @@
     "eject": "react-scripts eject",
     "server": "json-server -p3001 --watch db.json"
   },
-  "author": "",
+  "author": "Seshadri",
   "license": "ISC",
   "devDependencies": {
     "json-server": "^0.16.3"
