@@ -85,7 +85,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Phonebook</h1>
+      <h1>PhoneDiary</h1>
       <Notification message={errorMessage} />
       <div>
         <button onClick={() => setShowAll(!showAll)}>
@@ -93,7 +93,7 @@ const App = () => {
         </button>
       </div>   
       
-      <h2>Add A New Contact</h2>
+      <h2>Add a new Contact to list</h2>
 			<form onSubmit = {addPerson}>
 				Name: <input value = {newName} onChange = {handleNameChange} />
 				&nbsp; &nbsp; &nbsp;
