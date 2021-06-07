@@ -4,7 +4,7 @@ import App from './App.js'
 const persons = [
   {
     id: 1,
-    name: 'Sai'
+    name: 'Seshadri
   },
   {
     id: 2,
