@@ -59,7 +59,7 @@ const App = () => {
         if (displayToShow.length > 10) {
           return (
             <div>
-              <p>Too Many Matches, Specify Another Filter</p>
+              <p>Many Matches, Specify Another Different Filter</p>
             </div>
           )
         }
@@ -88,7 +88,7 @@ const App = () => {
                 <ul>
                   {displayToShow[0].languages.map(one => <li key = {one.name}>{one.name}</li>)}
                 </ul>
-              <h3>Weather in {displayToShow[0].capital}</h3>
+              <h3>Weather ins {displayToShow[0].capital}</h3>
               <p>Day: {weather[Math.floor(Math.random()*weather.length)].day}</p>
               <p>Night: {weather[Math.floor(Math.random()*weather.length)].night}</p>
             </div>
@@ -97,7 +97,7 @@ const App = () => {
         else {
           return (
             <div>
-              <p>Opps,there's something wrong about your searching...Please Try Again!</p>
+              <p>Opps,there is something wrong about your searching...Please Try Again!</p>
             </div>
           )
         }
