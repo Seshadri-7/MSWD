@@ -60,12 +60,12 @@ const App = (props) => {
 
   return (
       <div>
-        <h2>Phonebook</h2>
+        <h2>Phonediary</h2>
         <div>
 				  Filter To Show : <input type = "text" value = {searchName} onChange = {handleSearchName} />
 			  </div>
         <form onSubmit={addName}>
-          <h2>Add New One To The Form</h2>
+          <h2>Add New One to list</h2>
           <div>
             Name : <input value={newName} onChange={handleNameChange}/>
             <br/>
@@ -75,7 +75,7 @@ const App = (props) => {
           <input type = "submit" text = "Add" />
           </div>
         </form>
-        <h2>Numbers</h2>
+        <h2>Number</h2>
         <div>
           {newName} {newNumber}
         </div>
