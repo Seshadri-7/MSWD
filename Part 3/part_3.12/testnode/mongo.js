@@ -20,8 +20,8 @@ const noteSchema = new mongoose.Schema({
 const Note = mongoose.model('Note', noteSchema)
 
 const note = new Note({
-  name: `Ramji`,
-  telephone: 9100226132
+  name: `Seshadri`,
+  telephone: 83456765488
 })
 
 note.save().then(response => {
