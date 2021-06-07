@@ -35,7 +35,7 @@ const App = (props) => {
 
   return (
       <div>
-        <h2>Phonebook</h2>
+        <h2>PhoneDiary</h2>
         <form onSubmit={addName}>
           <div>
             Name : <input value={newName} onChange={handleNameChange}/>
@@ -44,7 +44,7 @@ const App = (props) => {
           <input type = "submit" text = "Add" />
           </div>
         </form>
-        <h2>Numbers</h2>
+        <h2>Number</h2>
         <div>
           {newName}
         </div>
