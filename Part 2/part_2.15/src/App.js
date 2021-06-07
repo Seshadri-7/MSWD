@@ -49,14 +49,14 @@ const App = () => {
 
   return (
     <div>
-      <h1>Phonebook</h1>
+      <h1>PhoneDiary</h1>
       <div>
         <button onClick={() => setShowAll(!showAll)}>
           show {showAll ? 'important' : 'all' }
         </button>
       </div>   
       
-      <h2>Add A New Contact</h2>
+      <h2>Add a new Contact to list</h2>
 			<form onSubmit = {addPerson}>
 				Name: <input value = {newName} onChange = {handleNameChange} />
 				&nbsp; &nbsp; &nbsp;
@@ -65,7 +65,7 @@ const App = () => {
 				<br />
 				<button type = "submit">ADD</button>
 			</form><br/>
-      <h2>Numbers</h2>
+      <h2>Number</h2>
 			{displayToShow.map(person => {
 				return(
 					<div key = {person.id}>
