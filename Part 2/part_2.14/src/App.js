@@ -59,7 +59,7 @@ const App = () => {
         if (displayToShow.length > 10) {
           return (
             <div>
-              <p>Too Many Matches, Specify Another Filter</p>
+              <p>Many Matches, Specify Another Different Filter</p>
             </div>
           )
         }
@@ -98,7 +98,7 @@ const App = () => {
         else {
           return (
             <div>
-              <p>Opps,there's something wrong about your searching...Please Try Again!</p>
+              <p>Opps,there is something wrong about your searching...Please Try Again!</p>
             </div>
           )
         }
